@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans';
+    height: 4000px;
+}
+.landing-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+/*Homepage Right Side*/
+
+.right-side {
+    display: inline-block;
+    width: 50%;
+    height: 100vh;
+    float: right;
+    background: url(/assets/img/spaniel.png);
+}
+
+/*Navigation Bar*/
+
+.nav-bar {
+    position: absolute;
+    width: inherit;
+    top: 40px; 
+    height: 27px;
+    font-size: 20px;
+}
+.nav-links {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 25px;
+}
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    border-bottom: 3px solid #ffffff;
+    padding-bottom:2px ;
+}
+
+/*Homepage Left Side*/
+
+.left-side {
+    display: inline-block;
+    float: left top;
+    width: 50%;
+    height: 100vh;
+}
+.logo-img {
+    height: 90px;
+    width: 197px;
+    position: absolute;
+    left:172px;
+    top: 32px;
+}
+.left-side-content {
+    width:419px;
+    position: absolute;
+    top:280px;
+    left:300px;
+}
+.left-side-content h4 {
+    color: #C0345E;
+    opacity: 0.75;
+    font-size: 16px;
+}
+.left-side-content h2 {
+    font-size:43px;
+    font-weight: 500;
+    color: #19293A;
+}
+.left-side-content h3 {
+    color: #506473;
+    font-weight: normal;
+    font-size: 21px;
+}
+.left-side-content a {
+    color: #19293A;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 3px solid #C0345E;
+}
