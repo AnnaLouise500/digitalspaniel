@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Digital Spaniel</title>
 </head>
 <body>
@@ -76,14 +77,75 @@
         </div>
     </div>
     <!--Recent Projects-->
-    <div class="projects" id="projects"></div>
+    <div id="projects-content" class="projects-content">
+        <div class="projects">
+            <h2>Some of our<br> recent projects</h2>
+        </div>
+    </div>
+    <!--Tablinks-->
+    <ul class="tablink-table">
+        <div class="image-menu-options">
+          <a href="javascript:void(0)" onclick="openProject(event, 'all');">
+            <div class="tablink tablink-option w3-bottombar w3-hover-light-grey w3-padding">All</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openProject(event, 'branding');">
+            <div class="tablink tablink-option w3-bottombar w3-hover-light-grey w3-padding">Branding</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openProject(event, 'webdesign');">
+            <div class="tablink tablink-option w3-bottombar w3-hover-light-grey w3-padding">Web Design</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openProject(event, 'digitalmarketing');">
+            <div class="tablink tablink-option w3-bottombar w3-hover-light-grey w3-padding">Digital Marketing</div>
+          </a>
+        </div>
+    <!--Content for above menu links-->  
+        <div id="all" class="project" style="display:none">
+          <div class="row">
+              <img src="/assets/img/whellies01.png" alt="Wellies" class="wellies">
+
+              <img src="/assets/img/newspaper02.png" alt="Newspaper" class="newspaper">
+              <img src="/assets/img/makerek.png" alt="Makerek" class="makerek">
+          </div>
+          <div class="row">
+              <img src="/assets/img/newspaper.png" alt="Newspaper2" class="newspaper2">
+              <img src="/assets/img/rider01.png" alt="Rider" class="rider">
+          </div>
+        </div>
+        <div id="branding" class="project" style="display:none">
+          <div class="row">
+            <img src="/assets/img/whellies01.png" alt="Wellies" class="wellies">
+            <img src="/assets/img/newspaper02.png" alt="Newspaper" class="newspaper">
+            <img src="/assets/img/makerek.png" alt="Makerek" class="makerek">
+          </div> 
+        </div>
+        <div id="webdesign" class="project" style="display:none">
+            <div class="row">
+                <img src="/assets/img/newspaper.png" alt="Newspaper2" class="newspaper2">
+                <img src="/assets/img/rider01.png" alt="Rider" class="rider">
+            </div>
+        </div>
+        <div id="digitalmarketing" class="project" style="display:none">
+            <div class="row">
+                <img src="/assets/img/whellies01.png" alt="Wellies" class="wellies">
+                <img src="/assets/img/newspaper02.png" alt="Newspaper" class="newspaper">
+                <img src="/assets/img/makerek.png" alt="Makerek" class="makerek">
+              </div> 
+        </div>
+    </ul>
+      <div class="see-all">
+          <a href="#projects-content" class="contact"> See all work</a>
+      </div>
+          </div>
     <!--Case Studies-->
-    <div class="case-studies" id="case-studies"></div>
+    <div class="case-studies" id="case-studies">
+
+    </div>
     <!--What are we all about?-->
     <div class="about" id="about"></div>
     <!--Client Testimonials-->
     <div class="testimonials" id="testimonials"></div>
     <!--Footer-->
     <div class="footer" id="footer"></div>
+    <script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
