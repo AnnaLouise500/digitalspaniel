@@ -11,3 +11,4 @@ function openProject(evt, projectName) {
   document.getElementById(projectName).style.display = "block";
   evt.currentTarget.firstElementChild.className += " w3-bottombar";
 }
+
