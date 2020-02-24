@@ -323,3 +323,44 @@ body {
       top:60px;
       background-color: black;
   }
+  /*About*/
+  .about-h2{
+      width:100%;
+  }
+  .about h2 {
+    position: relative;
+    text-align: center;
+    top: -1200px;
+    font-size:43px;
+    font-weight: 500;
+    color: #19293A;
+    margin: 0 auto;
+    width:500px;
+  }
+  .row {
+      width: 100%;
+      text-align: center;
+  }
+  .office1 {
+      width: 552px;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      display: inline-block;
+  }
+  .office2 {
+    width:382px;
+    position: relative;
+    display: inline-block;
+  }
+  .office3 {
+    width: 260px;
+    position: relative;
+    display: inline-block;
+  }
+  .office4 {
+    width:262px;
+    position: relative;
+    display: inline-block;
+    
+  }
